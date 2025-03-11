@@ -5,7 +5,7 @@ inputs:
     description:
       Xcode version to use, in semver(ish)-style matching the format on the Actions runner image.
       See available versions at https://github.com/actions/runner-images/blame/main/images/macos/macos-14-Readme.md#xcode
-    required: false
+    required:var 
     default: '15.3'
 outputs:
   xcode-path:
